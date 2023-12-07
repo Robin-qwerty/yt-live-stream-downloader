@@ -1,2 +1,3 @@
 # yt-live-stream-downloader
-A python bot that wil check if a youtube is live and auto download the stream 
+A python bot that checks if a youtuber is live and auto downloads every new live stream.
+
