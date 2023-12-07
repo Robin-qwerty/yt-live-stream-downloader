@@ -13,8 +13,9 @@ current_time = datetime.datetime.now()
 current_hour = current_time.hour
 
 # YouTube Data API Key
-api_key = 'AIzaSyCcECKUjDXepi7YwTaPmIqM8t7aPXrjcyE'
-
+with open('api-key.txt', 'r') as file:
+    api_key = file.read().strip()  
+    
 # YouTube channel ID
 channel_id = 'UCWsDFcIhY2DBi3GB5uykGXA'
 
