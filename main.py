@@ -41,6 +41,9 @@ def read_video_ids_from_file():
             lines = file.readlines()
             return [line.strip() for line in lines if line.strip()]
     except FileNotFoundError:
+        # Create the file if it doesn't exist
+        with open(video_ids_file, 'w') as file:
+            file.write('')
         return []
 
 def write_video_id_to_file(video_id):
