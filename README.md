@@ -5,12 +5,12 @@ A Python bot designed to automate the process of detecting live streams from spe
 
 ## Setup
 
-- YouTube API Key: Obtain a YouTube Data API key and save it in a file named 'api-key.txt' in the project directory.
+- YouTube API Key: Create a project in the [google clound console](https://console.cloud.google.com/apis/api/youtube.googleapis.com) and obtain a YouTube Data API key and save it in a file named 'api-key.txt' in the project directory.
 - Dependencies: Install necessary Python libraries using `pip install -r requirements.txt`.
 
 ## Configuration
 
-- Channel ID: Set the desired YouTube channel ID to monitor for live streams by updating the `channel_id` variable in the script.
+- Channel ID: Set the desired YouTube channel ID to monitor for live streams by updating the `channel_id` variable in the main.py script.
 
 ## Requirements
 
